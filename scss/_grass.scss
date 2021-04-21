@@ -1,0 +1,36 @@
+#grass2 {
+  animation: grass 40s linear infinite;
+  transform: translateX(-1300px);
+}
+
+@keyframes grass {
+  from {
+    transform: translateX(-1300px);
+  }
+  to {
+    transform: translateX(1200px);
+  }
+}
+
+
+/* tree animation  */
+
+#grass1,
+#grass2 {
+  animation: grass 40s linear infinite;
+  transform: translateX(-1300px);
+}
+
+#grass2 {
+  transform: translateX(-1400px);
+  animation-delay: 20s;
+}
+
+@keyframes grass{
+  from {
+    transform: translateX(-1400px);
+  }
+  to {
+    transform: translateX(1400px);
+  }
+}

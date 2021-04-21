@@ -1,0 +1,15 @@
+#sign,
+#flower {
+  position: relative;
+  top: 50px;
+  animation: sign 40s linear infinite;
+}
+
+@keyframes sign {
+  from {
+    transform: translateX(-1300px);
+  }
+  to {
+    transform: translateX(1400px);
+  }
+}

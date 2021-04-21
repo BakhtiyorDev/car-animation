@@ -1,0 +1,15 @@
+#car-wheels-back,
+#car-wheels-front {
+  animation: carWheels 2.5s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes carWheels {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

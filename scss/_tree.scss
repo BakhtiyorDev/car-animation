@@ -1,0 +1,20 @@
+/* tree animation  */
+
+#tree1,
+#tree2 {
+  animation: tree 40s linear infinite;
+  transform: translateX(-1300px);
+}
+
+#tree2 {
+  animation-delay: 20s;
+}
+
+@keyframes tree {
+  from {
+    transform: translateX(-1300px);
+  }
+  to {
+    transform: translateX(1400px);
+  }
+}
